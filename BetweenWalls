@@ -1,0 +1,30 @@
+using System;
+
+namespace BetweenWalls;
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            
+        int limit01=(int)random(0, 20);
+        int limit02=(int)random(0, 20);
+        int temp; 
+        if (limit01>limit02) 
+        {
+            temp=limit01; 
+            limit01=limit02;
+            limit02=temp;
+        }
+
+ 
+         int limit01=(int)random(0, 501-3);
+         int limit02=(int)random(limit01, 501);
+         
+        Console.WriteLine ("A imprimir valores de: "+limit01+" até "+limit02);
+        for ( int i=limit01; i<=limit02; i++)
+        {
+            Console.WriteLine("valor "+i);
+        }
+    }
+}
