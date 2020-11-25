@@ -2,7 +2,6 @@ using System;
 
 namespace BetweenWalls;
 {
-    public class Program
     {
         static void Main(string[] args)
         {
