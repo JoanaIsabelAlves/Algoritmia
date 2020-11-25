@@ -1,0 +1,12 @@
+using System;
+
+namespace Noob
+{  
+    class Program
+    {
+        static void Main(string[] args)  
+        {
+            string nickname="Joana";
+        }
+    }
+}
