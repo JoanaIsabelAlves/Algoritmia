@@ -24,7 +24,7 @@ namespace LostInMap
             message+="-LEFT";
         } else
         {
-            message+="-RIGT";
+            message+="-RIGHT";
         }
   
         Console.WriteLine(message);
